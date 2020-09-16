@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DB98F4F25123D2C00EFC491 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB98F4E25123D2C00EFC491 /* AppDelegate.swift */; };
+		7DB98F5125123D2C00EFC491 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB98F5025123D2C00EFC491 /* SceneDelegate.swift */; };
+		7DB98F5325123D2C00EFC491 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB98F5225123D2C00EFC491 /* ViewController.swift */; };
+		7DB98F5625123D2C00EFC491 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DB98F5425123D2C00EFC491 /* Main.storyboard */; };
+		7DB98F5825123D2D00EFC491 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DB98F5725123D2D00EFC491 /* Assets.xcassets */; };
+		7DB98F5B25123D2D00EFC491 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DB98F5925123D2D00EFC491 /* LaunchScreen.storyboard */; };
+		7DB98F6625123D2D00EFC491 /* malortPowerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB98F6525123D2D00EFC491 /* malortPowerTests.swift */; };
+		7DB98F7125123D2D00EFC491 /* malortPowerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB98F7025123D2D00EFC491 /* malortPowerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7DB98F6225123D2D00EFC491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DB98F4325123D2C00EFC491 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DB98F4A25123D2C00EFC491;
+			remoteInfo = malortPower;
+		};
+		7DB98F6D25123D2D00EFC491 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DB98F4325123D2C00EFC491 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DB98F4A25123D2C00EFC491;
+			remoteInfo = malortPower;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7DB98F4B25123D2C00EFC491 /* malortPower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = malortPower.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DB98F4E25123D2C00EFC491 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7DB98F5025123D2C00EFC491 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7DB98F5225123D2C00EFC491 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7DB98F5525123D2C00EFC491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DB98F5725123D2D00EFC491 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DB98F5A25123D2D00EFC491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7DB98F5C25123D2D00EFC491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DB98F6125123D2D00EFC491 /* malortPowerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = malortPowerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DB98F6525123D2D00EFC491 /* malortPowerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = malortPowerTests.swift; sourceTree = "<group>"; };
+		7DB98F6725123D2D00EFC491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DB98F6C25123D2D00EFC491 /* malortPowerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = malortPowerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DB98F7025123D2D00EFC491 /* malortPowerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = malortPowerUITests.swift; sourceTree = "<group>"; };
+		7DB98F7225123D2D00EFC491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DB98F4825123D2C00EFC491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DB98F5E25123D2D00EFC491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DB98F6925123D2D00EFC491 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DB98F4225123D2C00EFC491 = {
+			isa = PBXGroup;
+			children = (
+				7DB98F4D25123D2C00EFC491 /* malortPower */,
+				7DB98F6425123D2D00EFC491 /* malortPowerTests */,
+				7DB98F6F25123D2D00EFC491 /* malortPowerUITests */,
+				7DB98F4C25123D2C00EFC491 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DB98F4C25123D2C00EFC491 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DB98F4B25123D2C00EFC491 /* malortPower.app */,
+				7DB98F6125123D2D00EFC491 /* malortPowerTests.xctest */,
+				7DB98F6C25123D2D00EFC491 /* malortPowerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB98F4D25123D2C00EFC491 /* malortPower */ = {
+			isa = PBXGroup;
+			children = (
+				7DB98F4E25123D2C00EFC491 /* AppDelegate.swift */,
+				7DB98F5025123D2C00EFC491 /* SceneDelegate.swift */,
+				7DB98F5225123D2C00EFC491 /* ViewController.swift */,
+				7DB98F5425123D2C00EFC491 /* Main.storyboard */,
+				7DB98F5725123D2D00EFC491 /* Assets.xcassets */,
+				7DB98F5925123D2D00EFC491 /* LaunchScreen.storyboard */,
+				7DB98F5C25123D2D00EFC491 /* Info.plist */,
+			);
+			path = malortPower;
+			sourceTree = "<group>";
+		};
+		7DB98F6425123D2D00EFC491 /* malortPowerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7DB98F6525123D2D00EFC491 /* malortPowerTests.swift */,
+				7DB98F6725123D2D00EFC491 /* Info.plist */,
+			);
+			path = malortPowerTests;
+			sourceTree = "<group>";
+		};
+		7DB98F6F25123D2D00EFC491 /* malortPowerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7DB98F7025123D2D00EFC491 /* malortPowerUITests.swift */,
+				7DB98F7225123D2D00EFC491 /* Info.plist */,
+			);
+			path = malortPowerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DB98F4A25123D2C00EFC491 /* malortPower */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DB98F7525123D2E00EFC491 /* Build configuration list for PBXNativeTarget "malortPower" */;
+			buildPhases = (
+				7DB98F4725123D2C00EFC491 /* Sources */,
+				7DB98F4825123D2C00EFC491 /* Frameworks */,
+				7DB98F4925123D2C00EFC491 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = malortPower;
+			productName = malortPower;
+			productReference = 7DB98F4B25123D2C00EFC491 /* malortPower.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7DB98F6025123D2D00EFC491 /* malortPowerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DB98F7825123D2E00EFC491 /* Build configuration list for PBXNativeTarget "malortPowerTests" */;
+			buildPhases = (
+				7DB98F5D25123D2D00EFC491 /* Sources */,
+				7DB98F5E25123D2D00EFC491 /* Frameworks */,
+				7DB98F5F25123D2D00EFC491 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DB98F6325123D2D00EFC491 /* PBXTargetDependency */,
+			);
+			name = malortPowerTests;
+			productName = malortPowerTests;
+			productReference = 7DB98F6125123D2D00EFC491 /* malortPowerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7DB98F6B25123D2D00EFC491 /* malortPowerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DB98F7B25123D2E00EFC491 /* Build configuration list for PBXNativeTarget "malortPowerUITests" */;
+			buildPhases = (
+				7DB98F6825123D2D00EFC491 /* Sources */,
+				7DB98F6925123D2D00EFC491 /* Frameworks */,
+				7DB98F6A25123D2D00EFC491 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DB98F6E25123D2D00EFC491 /* PBXTargetDependency */,
+			);
+			name = malortPowerUITests;
+			productName = malortPowerUITests;
+			productReference = 7DB98F6C25123D2D00EFC491 /* malortPowerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DB98F4325123D2C00EFC491 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Gabriel Hildingsson Brickman";
+				TargetAttributes = {
+					7DB98F4A25123D2C00EFC491 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					7DB98F6025123D2D00EFC491 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 7DB98F4A25123D2C00EFC491;
+					};
+					7DB98F6B25123D2D00EFC491 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 7DB98F4A25123D2C00EFC491;
+					};
+				};
+			};
+			buildConfigurationList = 7DB98F4625123D2C00EFC491 /* Build configuration list for PBXProject "malortPower" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DB98F4225123D2C00EFC491;
+			productRefGroup = 7DB98F4C25123D2C00EFC491 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DB98F4A25123D2C00EFC491 /* malortPower */,
+				7DB98F6025123D2D00EFC491 /* malortPowerTests */,
+				7DB98F6B25123D2D00EFC491 /* malortPowerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DB98F4925123D2C00EFC491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB98F5B25123D2D00EFC491 /* LaunchScreen.storyboard in Resources */,
+				7DB98F5825123D2D00EFC491 /* Assets.xcassets in Resources */,
+				7DB98F5625123D2C00EFC491 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DB98F5F25123D2D00EFC491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DB98F6A25123D2D00EFC491 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DB98F4725123D2C00EFC491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB98F5325123D2C00EFC491 /* ViewController.swift in Sources */,
+				7DB98F4F25123D2C00EFC491 /* AppDelegate.swift in Sources */,
+				7DB98F5125123D2C00EFC491 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DB98F5D25123D2D00EFC491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB98F6625123D2D00EFC491 /* malortPowerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DB98F6825123D2D00EFC491 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB98F7125123D2D00EFC491 /* malortPowerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DB98F6325123D2D00EFC491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DB98F4A25123D2C00EFC491 /* malortPower */;
+			targetProxy = 7DB98F6225123D2D00EFC491 /* PBXContainerItemProxy */;
+		};
+		7DB98F6E25123D2D00EFC491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DB98F4A25123D2C00EFC491 /* malortPower */;
+			targetProxy = 7DB98F6D25123D2D00EFC491 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7DB98F5425123D2C00EFC491 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DB98F5525123D2C00EFC491 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7DB98F5925123D2D00EFC491 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DB98F5A25123D2D00EFC491 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DB98F7325123D2E00EFC491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7DB98F7425123D2E00EFC491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DB98F7625123D2E00EFC491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = malortPower/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MalortPower.malortPower;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7DB98F7725123D2E00EFC491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = malortPower/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MalortPower.malortPower;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7DB98F7925123D2E00EFC491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = malortPowerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MalortPower.malortPowerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/malortPower.app/malortPower";
+			};
+			name = Debug;
+		};
+		7DB98F7A25123D2E00EFC491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = malortPowerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MalortPower.malortPowerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/malortPower.app/malortPower";
+			};
+			name = Release;
+		};
+		7DB98F7C25123D2E00EFC491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = malortPowerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MalortPower.malortPowerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = malortPower;
+			};
+			name = Debug;
+		};
+		7DB98F7D25123D2E00EFC491 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = malortPowerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MalortPower.malortPowerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = malortPower;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DB98F4625123D2C00EFC491 /* Build configuration list for PBXProject "malortPower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DB98F7325123D2E00EFC491 /* Debug */,
+				7DB98F7425123D2E00EFC491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DB98F7525123D2E00EFC491 /* Build configuration list for PBXNativeTarget "malortPower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DB98F7625123D2E00EFC491 /* Debug */,
+				7DB98F7725123D2E00EFC491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DB98F7825123D2E00EFC491 /* Build configuration list for PBXNativeTarget "malortPowerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DB98F7925123D2E00EFC491 /* Debug */,
+				7DB98F7A25123D2E00EFC491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DB98F7B25123D2E00EFC491 /* Build configuration list for PBXNativeTarget "malortPowerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DB98F7C25123D2E00EFC491 /* Debug */,
+				7DB98F7D25123D2E00EFC491 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DB98F4325123D2C00EFC491 /* Project object */;
+}
